@@ -1,0 +1,252 @@
+pagina-inicial.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stephany França</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+            <Div class="header"> 
+                <h1>Stephany França – Estudante de Programação</h1>
+
+        <div class="menu">
+            <a id="selected" href="pagina-inicial.html">Início</a>
+            <a href="experiencia.html">Experiência Profissional</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+
+    </div>
+  
+    <div class="main">
+        <br> 
+            <img id="profile-picture" src="./img/foto.jpeg" alt="foto de Stephany França">
+        <div class="container">
+            <p>
+           <br>
+            <b> <i> Meu nome é Stephany França, tenho 23 anos, sou paulista e atualmente estou residindo em Poços de Caldas, no estado de Minas Gerais.</p>
+                <p> Aprendendo a programar na Labenu, e a cada dia tenho uma descoberta e desafios novos, posso dizer que ser um programador </p>
+                <p>não é tarefa fácil, exige muita dedicação, sei que ainda tenho muito o que evoluir, mas meu sonho é me tornar uma </p>
+                <p> desenvolvedora front-end e ter a oportunidade de poder colocar em prática todo esse conhecimento que </p>
+                <p> aprendemos neste curso sensacional. </i> </b></p>
+        <br>
+                    <h2> <b> Habilidades </b> </h2>
+    <p> <b> • Aprendendo HTML e CSS </b></p>
+                 </div>
+
+    <div class="footer">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/in/stephany-arruda-b40a8094" target="_blank">Linkedin</a>
+        <a href="https://github.com/future4code/Stephany-Franca" target="_blank">Github</a>
+        <a href="https://www.instagram.com/stephannyarruda/" target="_blank">instagram</a>
+    </div>
+</body>
+</html>
+
+experiencia.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stephany França - Experiência Profissional </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1>Stephany França – Estudante de Programação</h1>
+
+        <div class="menu">
+            <a href="pagina-inicial.html">Pagina inicial</a>
+            <a id="selected" href="experiencia.html">Experiência Profissional</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <br>
+        <br>
+        <h2>Experiências Profissionais</h2>
+        <ul>
+            <li> Hospital Poços de Caldas – Aux. Adminstrativo (Nov 2020 – Mar 2021)</li>
+            <li> Clínica Radiológica MedVida – Digitação de laudos médicos (Dez 2015 – Dez 2019)</li>
+        </ul>
+<br>
+
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li>Estudando Front-end – Labenu</li>
+            <li>Pacote Office – Ensina+ </li>
+            <li>Técnicas de Adminstração com logística – Ensina+</li>
+            <li>Matemática financeira – Ensina+</li>
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/in/stephany-arruda-b40a8094" target="_blank">Linkedin</a>
+        <a href="https://github.com/future4code/Stephany-Franca" target="_blank">Github</a>
+        <a href="https://www.instagram.com/stephannyarruda/" target="_blank">instagram</a>
+    </div>
+</body>
+</html>
+
+projtos.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stephany – Projetos </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1>Stephany França – Estudante de Programação</h1>
+
+        <div class="menu">
+            <a href="pagina-inicial.html">Início</a>
+            <a href="experiencia.html">Experiência Profissional</a>
+            <a id="selected" href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <br>
+        <h2>Meus projetos</h2>
+        <ul>
+            <li><a href="https://github.com/future4code/Stephany-Franca/blob/master/quinzena1-aula5" target="_blank"> Loja de roupas</a></li>
+            <li><a href="https://repl.it/@stephanynet/Projeto-Seletivo-Labenu" target="_blank"> Projeto Seletivo Labenu</a></li>
+
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/in/stephany-arruda-b40a8094" target="_blank">Linkedin</a>
+        <a href="https://github.com/future4code/Stephany-Franca" target="_blank">Github</a>
+        <a href="https://www.instagram.com/stephannyarruda/" target="_blank">instagram</a>
+    </div>
+</body>
+</html>
+
+contato.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephany – Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1>Stephany França – Estudante de Programação</h1>
+
+        <div class="menu">
+            <a href="pagina-inicial.html">Início</a>
+            <a href="experiencia.html">Experiência Profissional</a>
+            <a href="projetos.html">Projetos</a>
+            <a id="selected" href="contato.html">Contato</a>
+        </div>
+
+    <div class="main">
+        <h2>Entre em contato!</h2>
+
+        <form>
+            <label>Nome:</label>
+            <input type="text">
+
+            <label>E-mail:</label>
+            <input type="email">
+
+            <label>Mensagem:</label>
+            <input type="text">
+<br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/in/stephany-arruda-b40a8094" target="_blank">Linkedin</a>
+        <a href="https://github.com/future4code/Stephany-Franca" target="_blank">Github</a>
+        <a href="https://www.instagram.com/stephannyarruda/" target="_blank">instagram</a>
+    </div>
+</body>
+</html>
+
+style.css
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #998bed;
+    height: 80px;
+    
+  
+}
+
+.menu {
+    margin: 15px 0;
+}
+
+.menu a {
+    color:whitesmoke;
+    padding: 10px;
+    margin: 10px
+}
+
+#selected {
+    color: #993744;
+}
+
+#profile-picture {
+    height: 250px
+}
+
+
+form input {
+    display: block;
+}
+
+.footer {
+    background-color: #998bed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: black
+    ;
+}
+div.container {
+    height: 10em;
+    position: relative }
+div.container p {
+    margin: 25px;
+    position: relative;
+    top: -160%;
+    left: 16%;
+    margin-right: -20%;
+     }
+     div.container h2 {
+        margin: 25px;
+        position: relative;
+        top: -150%;
+        left: 16%;
+        margin-right: -10%;
+         }
+    
