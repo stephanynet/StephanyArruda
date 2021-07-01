@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../images/logo.png";
 import { Link } from "react-router-dom";
-import { useHistory, useParams } from "react-router-dom";
 
 function ApplicationFormPage() {
   return (
@@ -9,6 +8,7 @@ function ApplicationFormPage() {
       <div className="flex justify-center px-6 my-12">
         <div className="w-full xl:w-3/4 lg:w-11/12 flex justify-center items-center">
           <div className="w-full h-auto hidden lg:block lg:w-5/12 bg-cover rounded-l-lg">
+            <img className="pr-12" src={Logo} alt="logo-labex" />
           </div>
           <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
             <h3 className="pt-4 text-2xl text-center font-bold">
