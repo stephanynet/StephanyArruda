@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import useForm from "../hooks/useForm";
+import Logo from "../images/logo.png";
 
 const App = () => {
   const { form, onChange} = useForm({ email: "", password: "" });
@@ -10,8 +11,10 @@ const App = () => {
   };
 
   return (
-<div>
-      <h1>Login</h1>
+  <div>
+    <center>
+    <img src={Logo} />
+      <h1>LOGIN</h1>
       <form onSubmit={fazerLogin}>
         <input
           name="email"
@@ -21,6 +24,9 @@ const App = () => {
           required
           type="email"
         />
+        </form>
+       
+        <form>
         <input
           name="password"
           value={form.password}
@@ -28,18 +34,18 @@ const App = () => {
           placeholder={"Senha"}
           required
         />
-
         <button>Fazer Login</button>
       </form>
-      <div className="flex justify-center items-center mt-4">
-        <Link to="/">
-          <button
-            type="submit"
-            className="w-full px-4 py-2 text-base font-semibold text-center text-white transition duration-200 ease-in bg-black shadow-md hover:text-black hover:bg-white focus:outline-none focus:ring-2 mr-4"
-          >
-            <span className="w-full">Voltar</span>
+      </center>
+      <div>
+         <center>
+           <Link to="/">
+             <br></br>
+          <button>
+            <span>Voltar</span>
           </button>
         </Link>
+        </center>
        </div>
     </div>
   );
