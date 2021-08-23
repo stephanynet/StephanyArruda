@@ -1,42 +1,11 @@
-Alunos(as), sejam bem-vindos(as)!
+Desenvolvedora Front-End, em formação pela Labenu, com experiência em principais tecnologias, como:
+- HTML
+- CSS
+- JavaScript
+- React
 
-Esse repositório vai acompanhar vocês até o final do curso, para mantermos a organização, sugerimos que vocês sigam a seguinte estrutura:
+Ferramentas complementares:
+- Github
+- Design system 
+- Integrações com API
 
-```
-.
-├── semana-0
-│   ├── aula1
-│   ├── aula2
-│   └── projeto-nome
-|
-├── semana-1
-│   ├── aula3
-│   ├── aula4
-│   ├── aula5
-│   ├── aula6
-│   └── projeto-nome
-|
-├── semana-2
-│   ├── aula7
-│   ├── aula8
-│   ├── aula9
-│   ├── aula10
-│   └── projeto-nome
-|
-├── semana-3
-│   ├── aula11
-│   ├── aula12
-│   ├── aula13
-│   ├── aula14
-│   └── projeto-nome
-|
-├── semana-4
-│   ├── aula15
-│   ├── aula16
-│   ├── aula17
-│   ├── aula18
-│   └── projeto-nome
-|
-```
-
-Uma pasta para cada semana, dentro delas uma pasta para cada dia de aula e por fim uma pasta para o projeto da semana.
