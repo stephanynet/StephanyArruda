@@ -1,5 +1,20 @@
 import React from "react"
 import axios from "axios"
+import styled from "styled-components"
+import playlist from "../img/playlist.png"
+
+styled.div `
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
+    url(${playlist});
+    `
+
+    const imgFundo = styled.div `
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
+    url(${playlist});
+    `
+// ESTUDAR COMO COLOCAR A MAGEM DE FUNDO INTEIRO
 
 export default class CriarPlayList extends React.Component {
     state = {
