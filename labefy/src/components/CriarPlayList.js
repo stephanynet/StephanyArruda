@@ -1,20 +1,36 @@
 import React from "react"
 import axios from "axios"
-import styled from "styled-components"
-import playlist from "../img/playlist.png"
+import styled from "styled-components";
 
-styled.div `
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
-    url(${playlist});
-    `
+const ContainerPlayList = styled.div`
+    justify-content: center;
+     align-items: center;
+     background: #634461;
+     width: 30rem;
+     border-radius: 0.5rem;
+     margin: 0 auto;
+     overflow: hidden;
+    }
 
-    const imgFundo = styled.div `
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.0), transparent),
-    url(${playlist});
-    `
-// ESTUDAR COMO COLOCAR A MAGEM DE FUNDO INTEIRO
+button {
+    display: flex;
+    margin: 2rem auto;
+    color: #0ff;
+    padding: 1rem;
+    background-color: rgba(229, 238, 255, 0.2);
+    border-radius: 0.8rem;
+    border: none;
+    font-size: 1rem;
+    :hover {
+      background: rgba(229, 238, 255, 0.1);
+}
+
+h2 {
+  
+}
+  
+`;
+
 
 export default class CriarPlayList extends React.Component {
     state = {
@@ -48,14 +64,16 @@ export default class CriarPlayList extends React.Component {
     render(){
         return(
             <div>
-                <button onClick={this.props.irParaLista}> VER PLAYLISTS</button>
+                <ContainerPlayList>
                 <h2> Crie sua Playlist aqui </h2>
                 <input
-                   placeholder={"Nome"}
+                   placeholder={"Nome da playlist"}
                    value={this.state.nome}
                    onChange={this.handleNome}
                 />
                 <button onClick={this.criarPlaylist}>Criar</button>
+                <button onClick={this.props.irParaLista}> VER PLAYLISTS </button>
+            </ContainerPlayList>
             </div>
         )
     }
