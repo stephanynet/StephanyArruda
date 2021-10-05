@@ -10,7 +10,7 @@ const CardUsuario = styled.div`
   border-radius: 0.5rem;
   margin: 0 auto;
   `
-
+  
 export default class VerPlayList extends React.Component {
     state = {
         playlists: []
