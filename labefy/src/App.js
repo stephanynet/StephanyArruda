@@ -1,6 +1,9 @@
 import React from "react"
+import styled from "styled-components"
+import playlist from "./img/playlist.png"
 import CriarPlayList from "./components/CriarPlayList"
 import VerPlayList from "./components/VerPlayList"
+
 
 export default class App extends React.Component {
   state = {
@@ -29,7 +32,11 @@ export default class App extends React.Component {
   render(){
     return (
       <div>
+        <CardUsuario>
+        <StyledCard>
         {this.trocaTelas()}
+        </StyledCard>
+        </CardUsuario>
       </div>
     )
   }

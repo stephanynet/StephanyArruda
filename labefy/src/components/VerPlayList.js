@@ -1,6 +1,5 @@
 import React from "react"
 import axios from "axios"
-
 import styled from "styled-components";
 
 const CardUsuario = styled.div`
@@ -11,7 +10,7 @@ const CardUsuario = styled.div`
   border-radius: 0.5rem;
   margin: 0 auto;
   `
-
+  
 export default class VerPlayList extends React.Component {
     state = {
         playlists: []
@@ -60,9 +59,10 @@ export default class VerPlayList extends React.Component {
                 <CardUsuario key={user.id}>
                 {user.name}<button onClick={() => this.deletarPlaylist(user.id)}>X</button>
                 </CardUsuario>
+                
                 )
         })
-
+        
         return (
             <div>
                 <button onClick={this.props.playList}> CRIAR UMA PLAYLIST</button>
