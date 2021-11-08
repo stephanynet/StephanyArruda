@@ -1,7 +1,7 @@
 ✨ Volks Retrô
 
 Projeto desenvolvido em três páginas:
-- A primera com textos e imagens, algumas em carrosel com informações básicas sobre o Fusca 1935, contamos também com um painel 
+- A primeira com textos e imagens, algumas em carrosel com informações básicas sobre o Fusca 1935, contamos também com um painel 
 para navegação entre as páginas.
 - A segunda página contamos um pouco mais sobre a história do Fusca.
 - A terceira página temos um formulário para contato, com campo de e-mail e mensagem para que o usuário possa entrar em contato.
