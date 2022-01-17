@@ -1,36 +1,5 @@
 import React from "react"
 import axios from "axios"
-import styled from "styled-components";
-
-const ContainerPlayList = styled.div`
-    justify-content: center;
-     align-items: center;
-     background: #634461;
-     width: 30rem;
-     border-radius: 0.5rem;
-     margin: 0 auto;
-     overflow: hidden;
-    }
-
-button {
-    display: flex;
-    margin: 2rem auto;
-    color: #0ff;
-    padding: 1rem;
-    background-color: rgba(229, 238, 255, 0.2);
-    border-radius: 0.8rem;
-    border: none;
-    font-size: 1rem;
-    :hover {
-      background: rgba(229, 238, 255, 0.1);
-}
-
-h2 {
-  
-}
-  
-`;
-
 
 export default class CriarPlayList extends React.Component {
     state = {
