@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,3 +22,5 @@ Desenvolvedora Front-End, em formação pela Labenu, com experiência em princip
 >>>>>>> 63b3dbce30f1d12cda6265bb204daa446015c2f2
 =======
 >>>>>>> 4fa22f275387157f6a80c8365e1ac5e53fca52f7
+=======
+>>>>>>> dd5a2ebf4017acb5b9e83eed7a8cd3cb2a33f9ba
