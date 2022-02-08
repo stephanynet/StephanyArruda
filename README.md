@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ferramentas complementares:
 • Github
 • Design system
@@ -18,3 +19,5 @@ Desenvolvedora Front-End, em formação pela Labenu, com experiência em princip
 >>>>>>> 63b3dbce30f1d12cda6265bb204daa446015c2f2
 =======
 >>>>>>> 63b3dbce30f1d12cda6265bb204daa446015c2f2
+=======
+>>>>>>> 4fa22f275387157f6a80c8365e1ac5e53fca52f7
